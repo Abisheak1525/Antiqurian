@@ -1,0 +1,202 @@
+.payment-charges-container {
+    max-width: 600px;
+    padding: 30px;
+    margin: 0 auto;
+    background-color: #333;
+    color: white;
+    border-radius: 8px;
+}
+
+.payment-charges-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.payment-charges-description {
+    flex-grow: 1;
+}
+
+.payment-charges-amount {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.payment-charges-details-link {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.payment-charges-details-link button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.payment-charges-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.payment-charges-modal{
+    background-color: #555;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 400px;
+    width: 100%;
+    align-items: center;
+}
+.payment-charges-modal h2{
+    
+}
+.payment-charges-modal ul{
+    list-style: none;
+}
+
+.payment-charges-container-methods {
+    margin-top: 20px;
+    display: flex;
+    width: 650px;
+    gap: 30px;
+    margin-left: 60px;
+}
+
+.payment-charges-method-item {
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #333;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.payment-charges-method-item.hovered {
+    background-color: #444;
+    border-color: #007bff;
+}
+
+.payment-popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.payment-popup {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+.payment-popup-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.payment-popup-buttons button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.payment-popup-buttons button:first-child {
+    background-color: #28a745;
+}
+
+.payment-payment-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.payment-payment-modal {
+    background-color: #222;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+.payment-payment-form label {
+    display: block;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.payment-payment-form input {
+    width: 95%;
+    padding: 10px;
+    margin-top: 5px;
+    outline: none;
+    background: #dfdfdf;
+    color: black;
+    border: 1px solid #333;
+    border-radius: 4px;
+}
+
+.payment-payment-form button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.shipping-address-textarea {
+    width: 100%;
+    height: 100px; /* Adjusted height for better readability */
+    padding: 8px;
+    margin-top: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    outline: none;
+}
+.payment-checkout-button{
+    margin-left: 250px;
+    background: #555;
+    color: white;
+    border: 1px solid black;
+    height: 30px;
+    width: 90px;
+}
+.payment-checkout-button:hover{
+    background: #f78c00;
+    cursor: pointer;
+    border: 1px solid #555;
+}
