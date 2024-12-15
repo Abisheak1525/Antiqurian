@@ -1,4 +1,4 @@
-for My project 
+for My project working 
 1. npm -v  => to check if the node.js is installed or not 
 2. cd <filename> => to select the file 
 3. npm install => to install npm
